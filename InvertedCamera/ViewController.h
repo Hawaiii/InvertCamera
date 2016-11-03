@@ -7,8 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#include <opencv2/opencv.hpp>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<CvVideoCameraDelegate>
+{
+    CvVideoCamera *videoCamera; // OpenCV class for accessing the camera
+}
+// Declare internal property of videoCamera
+@property (nonatomic, retain) CvVideoCamera *videoCamera;
 
 
 @end

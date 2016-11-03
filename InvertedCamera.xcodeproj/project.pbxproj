@@ -9,11 +9,19 @@
 /* Begin PBXBuildFile section */
 		0FD83F281DCB9A2D0070BA7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD83F271DCB9A2D0070BA7F /* main.m */; };
 		0FD83F2B1DCB9A2D0070BA7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD83F2A1DCB9A2D0070BA7F /* AppDelegate.m */; };
-		0FD83F2E1DCB9A2D0070BA7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD83F2D1DCB9A2D0070BA7F /* ViewController.m */; };
+		0FD83F2E1DCB9A2D0070BA7F /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0FD83F2D1DCB9A2D0070BA7F /* ViewController.mm */; };
 		0FD83F311DCB9A2D0070BA7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FD83F2F1DCB9A2D0070BA7F /* Main.storyboard */; };
 		0FD83F341DCB9A2D0070BA7F /* InvertedCamera.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FD83F321DCB9A2D0070BA7F /* InvertedCamera.xcdatamodeld */; };
 		0FD83F361DCB9A2D0070BA7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FD83F351DCB9A2D0070BA7F /* Assets.xcassets */; };
 		0FD83F391DCB9A2D0070BA7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FD83F371DCB9A2D0070BA7F /* LaunchScreen.storyboard */; };
+		0FD83F481DCB9A950070BA7F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD83F401DCB9A950070BA7F /* AVFoundation.framework */; };
+		0FD83F491DCB9A950070BA7F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD83F411DCB9A950070BA7F /* CoreMedia.framework */; };
+		0FD83F4A1DCB9A950070BA7F /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD83F421DCB9A950070BA7F /* AssetsLibrary.framework */; };
+		0FD83F4B1DCB9A950070BA7F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD83F431DCB9A950070BA7F /* Accelerate.framework */; };
+		0FD83F4C1DCB9A950070BA7F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD83F441DCB9A950070BA7F /* CoreVideo.framework */; };
+		0FD83F4D1DCB9A950070BA7F /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD83F451DCB9A950070BA7F /* CoreImage.framework */; };
+		0FD83F4E1DCB9A950070BA7F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD83F461DCB9A950070BA7F /* QuartzCore.framework */; };
+		0FD83F4F1DCB9A950070BA7F /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD83F471DCB9A950070BA7F /* opencv2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,12 +30,20 @@
 		0FD83F291DCB9A2D0070BA7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0FD83F2A1DCB9A2D0070BA7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0FD83F2C1DCB9A2D0070BA7F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0FD83F2D1DCB9A2D0070BA7F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0FD83F2D1DCB9A2D0070BA7F /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		0FD83F301DCB9A2D0070BA7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FD83F331DCB9A2D0070BA7F /* InvertedCamera.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InvertedCamera.xcdatamodel; sourceTree = "<group>"; };
 		0FD83F351DCB9A2D0070BA7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FD83F381DCB9A2D0070BA7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FD83F3A1DCB9A2D0070BA7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FD83F401DCB9A950070BA7F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVFoundation.framework; sourceTree = "<group>"; };
+		0FD83F411DCB9A950070BA7F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreMedia.framework; sourceTree = "<group>"; };
+		0FD83F421DCB9A950070BA7F /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AssetsLibrary.framework; sourceTree = "<group>"; };
+		0FD83F431DCB9A950070BA7F /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Accelerate.framework; sourceTree = "<group>"; };
+		0FD83F441DCB9A950070BA7F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreVideo.framework; sourceTree = "<group>"; };
+		0FD83F451DCB9A950070BA7F /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreImage.framework; sourceTree = "<group>"; };
+		0FD83F461DCB9A950070BA7F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QuartzCore.framework; sourceTree = "<group>"; };
+		0FD83F471DCB9A950070BA7F /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +51,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FD83F4A1DCB9A950070BA7F /* AssetsLibrary.framework in Frameworks */,
+				0FD83F4B1DCB9A950070BA7F /* Accelerate.framework in Frameworks */,
+				0FD83F4F1DCB9A950070BA7F /* opencv2.framework in Frameworks */,
+				0FD83F4E1DCB9A950070BA7F /* QuartzCore.framework in Frameworks */,
+				0FD83F491DCB9A950070BA7F /* CoreMedia.framework in Frameworks */,
+				0FD83F481DCB9A950070BA7F /* AVFoundation.framework in Frameworks */,
+				0FD83F4C1DCB9A950070BA7F /* CoreVideo.framework in Frameworks */,
+				0FD83F4D1DCB9A950070BA7F /* CoreImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,10 +84,18 @@
 		0FD83F251DCB9A2D0070BA7F /* InvertedCamera */ = {
 			isa = PBXGroup;
 			children = (
+				0FD83F401DCB9A950070BA7F /* AVFoundation.framework */,
+				0FD83F411DCB9A950070BA7F /* CoreMedia.framework */,
+				0FD83F421DCB9A950070BA7F /* AssetsLibrary.framework */,
+				0FD83F431DCB9A950070BA7F /* Accelerate.framework */,
+				0FD83F441DCB9A950070BA7F /* CoreVideo.framework */,
+				0FD83F451DCB9A950070BA7F /* CoreImage.framework */,
+				0FD83F461DCB9A950070BA7F /* QuartzCore.framework */,
+				0FD83F471DCB9A950070BA7F /* opencv2.framework */,
 				0FD83F291DCB9A2D0070BA7F /* AppDelegate.h */,
 				0FD83F2A1DCB9A2D0070BA7F /* AppDelegate.m */,
 				0FD83F2C1DCB9A2D0070BA7F /* ViewController.h */,
-				0FD83F2D1DCB9A2D0070BA7F /* ViewController.m */,
+				0FD83F2D1DCB9A2D0070BA7F /* ViewController.mm */,
 				0FD83F2F1DCB9A2D0070BA7F /* Main.storyboard */,
 				0FD83F351DCB9A2D0070BA7F /* Assets.xcassets */,
 				0FD83F371DCB9A2D0070BA7F /* LaunchScreen.storyboard */,
@@ -154,7 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FD83F2E1DCB9A2D0070BA7F /* ViewController.m in Sources */,
+				0FD83F2E1DCB9A2D0070BA7F /* ViewController.mm in Sources */,
 				0FD83F341DCB9A2D0070BA7F /* InvertedCamera.xcdatamodeld in Sources */,
 				0FD83F2B1DCB9A2D0070BA7F /* AppDelegate.m in Sources */,
 				0FD83F281DCB9A2D0070BA7F /* main.m in Sources */,
@@ -278,6 +310,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3QBQHF22WR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/InvertedCamera",
+				);
 				INFOPLIST_FILE = InvertedCamera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yihua.CMU.InvertedCamera;
@@ -290,6 +326,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3QBQHF22WR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/InvertedCamera",
+				);
 				INFOPLIST_FILE = InvertedCamera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yihua.CMU.InvertedCamera;
